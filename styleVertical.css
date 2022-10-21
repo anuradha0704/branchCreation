@@ -1,0 +1,54 @@
+h2{
+    background-color: azure;
+}
+.container-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(172, 226, 208);
+    height: 5vh;
+}
+.container-navbar{
+    background: rgb(169, 162, 175);
+    list-style: none;
+     height: 95vh; 
+     width: 15vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-navbar li a{
+    color: brown;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    padding-right:  20px;
+}
+.element{
+    display: inline-flex;
+    position: relative;
+    margin-top: 8px
+}
+.container-navbar li a:hover{
+    color: aqua;
+    background-color: rgb(129, 230, 163);
+    border-radius: 30px;
+
+}
+.abc{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+marquee{
+    font-size: larger;
+    padding: 4px;
+    background-color: rgb(247, 217, 217);
+    
+    text-align: center;
+    
+
+}
