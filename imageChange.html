@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+var images = ["1111.jpg", "collegeback1.jpg", "collegeback3.jpg", "collegeback4.jpg", "Koala.jpg", "Lighthouse.jpg", "Penguins.jpg", "Tulips.jpg"];
+    $(function () {
+        var i = 0;
+        $("#dvImage").css("background-image", "url(images/" + images[i] + ")");
+        setInterval(function () {
+            i++;
+            if (i == images.length) {
+                i = 0;
+            }
+            $("#dvImage").fadeOut("slow", function () {
+                $(this).css("background-image", "url(images/" + images[i] + ")");
+                $(this).fadeIn("slow");
+            });
+        }, 5000);
+    });
+
+        </script>
+    </body>
+</html>

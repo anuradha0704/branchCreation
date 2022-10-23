@@ -10,7 +10,7 @@ h2{
     height: 5vh;
 }
 .container-navbar{
-    background: rgb(169, 162, 175);
+    background: rgb(48, 46, 53);
     list-style: none;
      height: 95vh; 
      width: 15vw; 
@@ -20,9 +20,9 @@ h2{
     align-items: center;
 }
 .container-navbar li a{
-    color: brown;
+    color: white;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-transform: capitalize;
@@ -34,9 +34,17 @@ h2{
     margin-top: 8px
 }
 .container-navbar li a:hover{
-    color: aqua;
-    background-color: rgb(129, 230, 163);
-    border-radius: 30px;
+    
+    background-color: rgb(218, 48, 5);
+    color: yellow;
+    
+    padding: 4px 8px;
+    
+    /*content : '..';*/
+    counter-reset : counter(chrome-counter, upper-roman);
+    box-shadow: 0px 0px 4px #222;
+    border-radius: 1.5em .5em / 2.5em 2em;
+    
 
 }
 .abc{
