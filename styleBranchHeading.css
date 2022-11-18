@@ -94,7 +94,7 @@ filter: brightness(1.5) contrast(1.5);
 .title h1
 {
     text-align: center;
-    padding-top: 1px;
+    padding-top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(29, 26, 22) ;
     text-shadow: 10px 5px 10px rgb(88, 3, 3);
@@ -107,11 +107,11 @@ filter: brightness(1.5) contrast(1.5);
     text-transform: capitalize;
     text-shadow: 5px black;
     filter: brightness(1.8) contrast(1.8);
-    padding-top: 4px;
+    padding-top: 1px;
     /* font-size: 25px; */
 }
 .title h4
 {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 3px;
 }
