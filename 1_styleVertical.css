@@ -12,7 +12,7 @@ h2{
 .container-navbar{
     background: rgb(48, 46, 53);
     list-style: none;
-     height: 104vh; 
+     height: 97vh; 
      width: 15vw; 
     display: flex;
     flex-direction: column;
